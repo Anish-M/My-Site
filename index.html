@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Anish Mankal</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+
+  <script src="https://use.fontawesome.com/2a7bd8788e.js"></script>
+  <script src="https://kit.fontawesome.com/1c9ad4b785.js" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com"> 
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com"> 
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com"> 
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">   
+
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <section id="title">
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom top-bar fixed">
+        <a class="navbar-brand" href="">Anish Mankal</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse items-group" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item items">
+                <a class="nav-link item-text" href="">Projects</a>
+            </li>
+            <li class="nav-item items">
+                <a class="nav-link item-text" href="">Internships</a>
+            </li>
+            
+            <li class="nav-item items">
+                <a class="nav-link" href="">Contact</a>
+            </li>
+        </ul>
+      </div>
+    </nav>
+
+    <script>
+              function checkScroll(){
+            var startY = $('.navbar').height() * 1.7; //The point where the navbar changes in px
+
+            if($(window).scrollTop() > startY){
+                $('.navbar').addClass("scrolled");
+            }else{
+                $('.navbar').removeClass("scrolled");
+            }
+        }
+
+        if($('.navbar').length > 0){
+            $(window).on("scroll load resize", function(){
+                checkScroll();
+            });
+        }
+    </script>
+
+    <div class="about-me">
+        <div class="contain-about-me row">
+            <div class = "intro-text col-lg-6">
+                <h1 class="my-name"> Anish Mankal </h1>
+                <h1 class="my-uni">  Computer Science at UT Austin </h1>
+
+                <h2 class="my-tagline">I'm a freshman studying Computer Science at the University of Texas at Austin 🤘 I'm interested in the fields of machine learning, data science, and cybersecurity. In general, I am passionate about technology and seek to pursue a career in this field. </h2>
+            </div>
+            <div class = "intro-img col-lg-6">
+                <img class ="my-img" src="images/1572935043363-2.jpeg">
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="divider">
+        <div class="row">
+             <p></p>
+        </div>
+    </div>
+
+    <div class="projects">
+        <h2 class="projects-title">Projects</h2>
+
+        <div class="container-fluid projects-container">
+            <div class="row projects-row">
+                <div class="col-lg-6 left-column">
+                    <div class="shadow card project-card bg-for-card">
+                        <div class="row images-row">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <img class="card-img-top connect4-img" src="images/Screen Shot 2021-06-03 at 10.39.06 PM.png" alt="Card image cap">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <img class="card-img-top connect4-img" src="images/Screen Shot 2021-06-03 at 10.41.54 PM.png" alt="Card image cap">
+                            </div>
+                        </div>
+                        
+                        
+                        
+
+                        <div class="card-body">
+                          <h5 class="card-title">Reinforcement Learning: Connect 4</h5>
+                          <p class="card-text">Created a python program that created an AI player that could play connect 4 using neural networks with the Tensorflow api. Created a user interface with Tkinter</p>
+                          <a href="https://github.com/Anish-M/ReinforcementLearningConnect4" class="github-icon"><i class="fab fa-github fa-2x"></i></a>
+                          <a href="https://www.python.org/" class="btn btn-primary tools">Python</a>
+                          <a href="https://www.tensorflow.org/" class="btn btn-primary tools">Tensorflow</a>
+                          <a href="https://docs.python.org/3/library/tkinter.html" class="btn btn-primary tools">Tkinter</a>
+
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-6 right-column">
+                    <div class="shadow card project-card">
+                        
+                        <img class="card-img-top web-vuln-img" src="images/pasted image 0.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Web Vulnerability Detection</h5>
+                          <p class="card-text">Created a java program to detect vulnerabilities on a web page and in code and created experimental web page with HTML, CSS, and PHP to test.</p>
+                          <a href="https://github.com/Anish-M/Web-Vulnerability-Scanner" class="github-icon"><i class="fa-2x fab fa-github"></i></a>
+                          <a href="#" class="btn btn-primary tools">Java</a>
+                          <a href="#" class="btn btn-primary tools">HTML/CSS</a>
+                          <a href="#" class="btn btn-primary tools">SQL</a>
+                          <a href="#" class="btn btn-primary tools">PHP</a>
+                          <a href="#" class="btn btn-primary tools">Javascript</a>
+
+                          
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid projects-container">
+            <div class="row projects-row">
+                
+                <div class="col-lg-6 right-column">
+                    <div class="shadow card project-card">
+                        
+                        <img class="card-img-top web-vuln-img" src="images/pasted image 0.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Network Defense System</h5>
+                          <p class="card-text">I built a network defense system which includes three components : An Intrusion Detection System, A HoneyPot (a vulnerable system) and a Kali Linux virtual machine (to simulate an attacker)</p>
+                          <a href="https://github.com/Anish-M/NetworkDefenseTool" class="github-icon"><i class="fa-2x fab fa-github"></i></a>
+                          <a href="#" class="btn btn-primary tools">Bash</a>
+                          <a href="#" class="btn btn-primary tools">Linux</a>
+                          <a href="#" class="btn btn-primary tools">Raspberry Pi</a>
+                          <a href="#" class="btn btn-primary tools">IDS</a>
+                          <a href="#" class="btn btn-primary tools">Virtual Machines</a>
+
+
+                          
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-lg-6 right-column">
+                    <div class="shadow card project-card">
+                        
+                        <div class="card-body">
+                          <h5 class="card-title">Coming Soon...</h5>
+                          <p class="card-text"></p>
+                          
+                          
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="divider">
+        <div class="row">
+             <p></p>
+        </div>
+    </div>
+
+    <div class="experience">
+            <h1 class="experience-header"><u>Internships</u></h1>
+            <div class="row ajira-row">
+                <div class="col-lg-3">
+                    <h3 class="ajira-header">Ajira Inc</h3>
+                </div>
+                <div class="col-lg-9">
+                    <ul class="ajira-describe">
+                        <li>Developed a prototype for a cross platform inter computer communications network</li>
+                        <li> Designed the framework for cybersecurity startup in Java using an open source message broker</li>
+                        <li>Wrote efficient and modularized code with professional pratices</li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+    
+    <div class="divider">
+        <div class="row">
+             <p></p>
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+    
+    
+  
+
+
+
+
+
+  
+  
+  <!-- Footer -->
+
+  <footer id="footer">
+
+  
+      
+
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

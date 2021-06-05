@@ -1,0 +1,246 @@
+/* Navigation Bar */
+.navbar-custom {
+    background-color: transparent;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+
+}
+
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #00adb5;
+    font-size: 2rem;
+    padding: 1rem;
+    font-family: 'Nunito';
+    font-weight: 700;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #eeeeee;
+    font-size: 1.5rem;
+    font-family: 'Nunito';
+
+    
+}
+nav{
+    height: 5rem;
+    z-index: 9999;
+    
+}
+
+.items-group{
+    margin-right: 0.5rem;
+    
+}
+
+.items{
+    margin: 0.5rem;  
+}
+
+
+
+@media (max-width: 1200px){
+    nav{
+        height: 10rem;
+        
+    }
+
+    .navbar ul.navbar-nav:hover li.nav-item:hover a.nav-link:hover {
+        color: green;
+      }
+
+   
+    
+
+}
+
+.navbar {
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+.navbar.scrolled {
+    background: #222831;; /* IE */
+    background: #222831;; /* NON-IE */
+}
+
+
+
+/* End Navigation Bar */
+
+/* About ME */
+
+
+.about-me{
+    padding-top: 15%;
+    padding-bottom: 10%;
+
+    padding-right: 10%;
+    padding-left: 10%;
+
+    text-align: center;
+    background-color: #393e46;
+}
+
+.my-name{
+    color: #00adb5;
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+
+    font-family: "Nunito";
+}
+.my-uni{
+    color: #00adb5;
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-bottom: 3%;
+    font-family: "Nunito";
+
+    
+}
+.my-tagline{
+    text-align: left;
+    font-family: 'Nunito';
+    font-size: 2rem;
+    color: #eeeeee; 
+    font-family: "Nunito";
+
+   
+    
+
+}
+
+.my-img{
+    border-radius: 5%;
+    width: 25rem;
+    margin-left: 20%;
+    margin-top: 7%;
+    
+}
+
+/* End About Me Section */
+
+.divider{
+    background-color: #222831;
+    width: auto;
+}
+
+/* Projects */
+
+.projects{
+    background-color: #393e46;
+    padding: 5%;
+    padding-bottom: 10%;
+    
+}
+
+.projects-title{
+    text-align: center;
+    font-size: 4rem;
+    color: #00adb5;
+    font-family: 'Nunito';
+    font-weight: 800;
+}
+
+.projects-container{
+    margin-top: 4%;
+}
+.project-card{
+    margin: auto;
+    width: 25rem;
+    height: 32rem;
+    background-color: lightblue;
+
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;
+    
+    border-radius: 4px;
+
+}
+
+.project-card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    
+}
+
+.connect4-img{
+    padding-top: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: lightblue;
+
+    width: 100%;
+    height: 97%;
+}
+
+.web-vuln-img{
+    padding-top: 5%;
+    margin: auto;
+    background-color: lightblue;
+
+    width: 55%;
+    height: 45%;
+    text-align: center;
+}
+.images-row{
+    text-align: center;
+    height: 47%;
+
+}
+.tools{
+    margin: 1.5%;
+}
+
+.card-body{
+    background-color: lightblue;
+}
+
+.github-icon{
+    margin-right: 1rem;
+}
+
+/* Experience Section */
+.experience{
+    background-color: #393e46;
+    padding: 5%;
+    padding-bottom: 5%;
+    
+}
+
+.experience-header{
+    text-align: center;
+    color: #00adb5;
+    font-size: 3.25rem;
+    font-weight: 700;
+    font-family: "Nunito";
+
+
+}
+
+.ajira-header{
+    text-align: center;
+    font-family: "Impact";
+    color: #00adb5;
+    font-size: 4rem;
+}
+.ajira-describe{
+    font-family: 'Nunito';
+    color: #eeeeee;
+    font-size: 1.2rem;
+}
+.ajira-row{
+    padding-top: 1%;
+}
