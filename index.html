@@ -6,6 +6,7 @@
   <title>Anish Mankal</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon_io-2/favicon.ico"
 
 
   <script src="https://use.fontawesome.com/2a7bd8788e.js"></script>
@@ -30,22 +31,26 @@
 <link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap" rel="stylesheet">
 </head>
 
+
+
+
 <body>
+    
 
   <section id="title">
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom top-bar fixed">
-        <a class="navbar-brand" href="">Anish Mankal</a>
+        <a class="navbar-brand" href="#title">Anish Mankal</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
       <div class="collapse navbar-collapse items-group" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item items">
-                <a class="nav-link item-text" href="">Projects</a>
+                <a class="nav-link item-text" href="#projects-section">Projects</a>
             </li>
             <li class="nav-item items">
-                <a class="nav-link item-text" href="">Internships</a>
+                <a class="nav-link item-text" href="#internships">Internships</a>
             </li>
             
             <li class="nav-item items">
@@ -56,7 +61,7 @@
     </nav>
 
     <script>
-              function checkScroll(){
+            function checkScroll(){
             var startY = $('.navbar').height() * 1.7; //The point where the navbar changes in px
 
             if($(window).scrollTop() > startY){
@@ -89,30 +94,35 @@
     </div>
 
     <div class="divider">
-        <div class="row">
+        <div class="row division">
              <p></p>
         </div>
     </div>
 
-    <div class="projects">
+ 
+
+  
+
+    <div class="projects" id="projects-section">
         <h2 class="projects-title">Projects</h2>
 
         <div class="container-fluid projects-container">
             <div class="row projects-row">
-                <div class="col-lg-6 left-column">
-                    <div class="shadow card project-card bg-for-card">
+                <div class="col-lg-6 col-md-6 col-sm-12 left-column">
+                    <div class="shadow card project-card-top bg-for-card">
                         <div class="row images-row">
-                            <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="col-lg-6 col-md-6 col-sm-6 project-col">
                                 <img class="card-img-top connect4-img" src="images/Screen Shot 2021-06-03 at 10.39.06 PM.png" alt="Card image cap">
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <img class="card-img-top connect4-img" src="images/Screen Shot 2021-06-03 at 10.41.54 PM.png" alt="Card image cap">
+                            <div class="col-lg-6 col-md-6 col-sm-6 project-col">
+                                <img class="card-img-top connect4-img-2" src="images/Screen Shot 2021-06-03 at 10.41.54 PM.png" alt="Card image cap">
                             </div>
                         </div>
-                        
-                        
-                        
 
+                        
+                        
+                        
+                        
                         <div class="card-body">
                           <h5 class="card-title">Reinforcement Learning: Connect 4</h5>
                           <p class="card-text">Created a python program that created an AI player that could play connect 4 using neural networks with the Tensorflow api. Created a user interface with Tkinter</p>
@@ -124,8 +134,8 @@
                         </div>
                       </div>
                 </div>
-                <div class="col-lg-6 right-column">
-                    <div class="shadow card project-card">
+                <div class="col-lg-6 col-md-6 col-sm-12 right-column">
+                    <div class="shadow card project-card-top">
                         
                         <img class="card-img-top web-vuln-img" src="images/pasted image 0.png" alt="Card image cap">
                         <div class="card-body">
@@ -148,8 +158,8 @@
         <div class="container-fluid projects-container">
             <div class="row projects-row">
                 
-                <div class="col-lg-6 right-column">
-                    <div class="shadow card project-card">
+                <div class="col-lg-6 col-md-6 col-sm-12 right-column">
+                    <div class="shadow card project-card-bottom">
                         
                         <img class="card-img-top web-vuln-img" src="images/pasted image 0.png" alt="Card image cap">
                         <div class="card-body">
@@ -168,8 +178,8 @@
                       </div>
                 </div>
 
-                <div class="col-lg-6 right-column">
-                    <div class="shadow card project-card">
+                <div class="col-lg-6 col-md-6 col-sm-12 right-column">
+                    <div class="shadow card project-card-bottom">
                         
                         <div class="card-body">
                           <h5 class="card-title">Coming Soon...</h5>
@@ -183,17 +193,20 @@
         </div>
     </div>
 
+
+
     <div class="divider">
-        <div class="row">
+        <div class="row division">
              <p></p>
         </div>
     </div>
 
-    <div class="experience">
-            <h1 class="experience-header"><u>Internships</u></h1>
+    <div class="experience" id="internships">
+            <h1 class="experience-header"><u>Software Developer Internships</u></h1>
             <div class="row ajira-row">
-                <div class="col-lg-3">
+                <div class="col-lg-3 ajira-headings">
                     <h3 class="ajira-header">Ajira Inc</h3>
+                    <h5 class="ajira-tagline">June 2020 - July 2020</h2>
                 </div>
                 <div class="col-lg-9">
                     <ul class="ajira-describe">
@@ -206,12 +219,11 @@
     </div>
     
     <div class="divider">
-        <div class="row">
+        <div class="row division">
              <p></p>
         </div>
     </div>
 
-    
 
     
 
