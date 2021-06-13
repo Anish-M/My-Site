@@ -34,7 +34,7 @@ html{
 
 
 nav{
-    height: 5rem;
+    height: 10%;
     z-index: 9999;
     
 }
@@ -85,7 +85,7 @@ nav{
 
 .my-name{
     color: #00adb5;
-    font-size: 4.5rem;
+    font-size: 450%;
     font-weight: 700;
     margin-top: 5%;
     margin-left: 5%;
@@ -226,6 +226,18 @@ nav{
     height: 45%;
     text-align: center;
 }
+
+.network-defense-img{
+    padding-top: 5%;
+    text-align: center;
+    background-color: lightblue;
+    justify-content: center;
+    width: 90%;
+    height: 45%;
+    border-radius: 10%;
+    margin: auto;
+}
+
 .images-row{
     text-align: center;
     height: 47%;
@@ -283,6 +295,28 @@ nav{
     font-size: 1.2rem;
     padding-top: 1.5%;
 }
+
+.research-header{
+    text-align: center;
+    font-family: "Impact";
+    color: #00adb5;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.research-tagline{
+    text-align: center;
+    font-family: "Impact";
+    color: #00adb5;
+    font-size: 1.5rem;
+}
+.research-describe{
+    font-family: 'Nunito';
+    color: #eeeeee;
+    font-size: 1.2rem;
+    padding-top: 1.5%;
+}
+
 .ajira-row{
     padding-top: 1%;
 }
@@ -435,3 +469,16 @@ nav{
    
 }
 
+
+/* footer */
+.social-icon{
+    margin: 20px 40px;
+    color: #00adb5;
+    
+}
+#footer{
+    background-color:#393e46;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
