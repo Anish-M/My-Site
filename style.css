@@ -368,17 +368,21 @@ nav{
 
     .project-card-top{
         width: 20rem;
-        height: 100%;
+        height: 85%;
 
 
     }
 
     .project-card-bottom{
         width: 20rem;
-        height: 100%;
+        height: 80%;
 
 
     }
+
+    
+
+    
 
     
    
@@ -429,7 +433,7 @@ nav{
     .project-card-bottom{
         width: 10rem;
         height: 100%;
-
+        
 
     }
 
